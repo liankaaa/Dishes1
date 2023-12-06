@@ -1,0 +1,58 @@
+﻿<Window x:Class="Dishes1.Adress"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dishes1"
+        mc:Ignorable="d"
+        Title="Adress" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="119" Margin="10,10,0,0" VerticalAlignment="Top" Width="114" Source="/logo.png"/>
+        <Label Content="ПУНКТЫ ВЫДАЧИ" HorizontalAlignment="Left" Margin="272,97,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Arial Black" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="193,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" FontSize="22" FontFamily="Arial" FontWeight="Bold" BorderBrush="White">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/Frame 1.png" Stretch="UniformToFill"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="729,37,0,0" VerticalAlignment="Top" Width="55" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="/admin.png" Stretch="None"/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="669,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="#FFFFFDFD" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/korzina.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="45" Margin="612,37,0,0" VerticalAlignment="Top" Width="55" BorderBrush="White" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/adress.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="252" Margin="77,153,0,0" Stroke="White" VerticalAlignment="Top" Width="209">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Rectangle 34.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Пункт выдачи" HorizontalAlignment="Left" Margin="122,165,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="90,201,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="90,232,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="89,263,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="89,294,0,0" VerticalAlignment="Top"/>
+        <Label Content="ул. Комсольмольская, 36" HorizontalAlignment="Left" Margin="89,325,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="250,207,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="250,239,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="250,269,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="13" Margin="250,299,0,0" VerticalAlignment="Top" Width="18"/>
+        <CheckBox Content="CheckBox" Height="13" Margin="250,331,532,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="254" Margin="366,148,0,0" Stroke="White" VerticalAlignment="Top" Width="373">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Frame 4.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+    </Grid>
+</Window>
