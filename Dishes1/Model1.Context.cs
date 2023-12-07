@@ -14,21 +14,12 @@ namespace Dishes1
     using System.Data.Entity.Infrastructure;
     using System.Data.Entity.Core.Objects;
     using System.Linq;
-    using Microsoft.VisualBasic.ApplicationServices;
-
+    
     public partial class DishesEntities1 : DbContext
     {
-        private static DishesEntities1 _context;
         public DishesEntities1()
             : base("name=DishesEntities1")
         {
-        }
-
-        public static DishesEntities1 getContext()
-        {
-            if (_context == null)
-                _context = new DishesEntities1();
-            return _context;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
